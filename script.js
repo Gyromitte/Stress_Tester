@@ -8,12 +8,15 @@ function calculateStress() {
         q5: parseFloat(document.querySelector('input[name="q5"]:checked').value),
         q6: parseFloat(document.querySelector('input[name="q6"]:checked').value),
         q7: parseFloat(document.querySelector('input[name="q7"]:checked').value),
-        q8: parseFloat(document.querySelector('input[name="q8"]:checked').value)
+        q8: parseFloat(document.querySelector('input[name="q7"]:checked').value),
+        q9: parseFloat(document.querySelector('input[name="q7"]:checked').value),
+        q10: parseFloat(document.querySelector('input[name="q7"]:checked').value),
+        q11: parseFloat(document.querySelector('input[name="q8"]:checked').value)
     };
 
     // Calcular el promedio de las respuestas
     const totalScore = (responses.q1 + responses.q2 + responses.q3 + responses.q4 +
-        responses.q5 + responses.q6 + responses.q7 + responses.q8) / 8;
+        responses.q5 + responses.q6 + responses.q7 + responses.q8 + responses.q9 + responses.q10 + responses.q11) / 11;
 
     // Convertir a porcentaje
     const stressPercentage = (totalScore / 5) * 100;
