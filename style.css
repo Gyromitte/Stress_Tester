@@ -1,0 +1,8 @@
+.progress-bar-container {
+    width: 80%; /* Ancho de la barra de progreso */
+    margin: 0 auto; /* Centrar la barra de progreso */
+    margin-top: 20px; /* Espacio superior */
+    font-size: 15px;
+    background-color: rgb(92, 91, 91) !important;
+  }
+  
